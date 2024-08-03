@@ -4,7 +4,7 @@ def split_long_screenshot(input_image_path, output_folder, num_splits):
     # Open the image
     image = Image.open("D:\Python\Safe\I.png")
 
-    # Get the width and height of the image
+    # Getting Image Dimensions
     width, height = image.size
 
     # Calculate the height of each small picture
