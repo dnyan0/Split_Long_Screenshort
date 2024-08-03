@@ -1,8 +1,9 @@
+# Note: Check the address of the Input and Output folders in the code.
 from PIL import Image
 # PIL stands for Python Imaging Library
 def split_long_screenshot(input_image_path, output_folder, num_splits):
     # Open the image
-    image = Image.open("D:\Python\Safe\I.png")
+    image = Image.open("Input image address")
 
     # Getting Image Dimensions
     width, height = image.size
@@ -20,7 +21,7 @@ def split_long_screenshot(input_image_path, output_folder, num_splits):
         region = image.crop((0, top, width, bottom))
 
         # Save the cropped region
-        output_path = f"{"D:\Python\Safe"}/split_{i + 1}.png"
+        output_path = f"{"output image address"}/split_{i + 1}.png"
         region.save(output_path)
 
 if __name__ == "__main__":
