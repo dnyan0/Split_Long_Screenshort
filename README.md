@@ -1,4 +1,4 @@
-# Split_Long_Screenshort
+# Split_Long_Screenshot
 This code can be used to split the long screenshort in short pictures.
 # Step-by-Step explanation how this code works 
 # 1. Importing the Library:
