@@ -1,5 +1,5 @@
 # Split_Long_Screenshot
-This code can be used to split the long screenshort in short pictures.
+This code can be used to split the long screenshot in short pictures.
 # Step-by-Step explanation how this code works 
 # 1. Importing the Library:
   Import the 'Image' module from the Python Imaging Library (PIL).
